@@ -38,8 +38,10 @@ body {
     margin: 1em;
 }
 
-.card {
+.card2 {
     margin: 2em;
+    padding: 2em;
+    background-color: #EFF0F4
 }
 
 h3 {
