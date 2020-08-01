@@ -1,0 +1,47 @@
+body {
+    height: 100%;
+    background-color: #3380ce;
+
+}
+
+.navTitle {
+    font-size: xx-large;
+}
+
+
+
+.foot {
+    background-color: #343a40;
+    color: white;
+    margin-bottom: 0;
+    padding: 1em;
+    
+}
+
+
+.pic1 {
+height: 55%;
+width: 100%;
+}
+/* 
+body {
+    height: 100%;
+    background-color: #2b1331;
+    background-image: linear-gradient(315deg, #c7c3d3 0%, #2a5683 74%);
+} */
+
+.hello {
+    margin: 2em;
+}
+
+.card-deck {
+    margin: 1em;
+}
+
+.card {
+    margin: 2em;
+}
+
+h3 {
+   text-align: center;
+}
