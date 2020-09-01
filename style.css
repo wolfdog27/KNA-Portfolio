@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background-color: #3380ce;
+    background-color: whitesmoke;
 
 }
 
@@ -41,9 +41,61 @@ body {
 .card2 {
     margin: 2em;
     padding: 2em;
-    background-color: #EFF0F4
 }
 
-h3 {
+h1 {
    text-align: center;
 }
+
+/* Video Header */
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(121, 118, 118);
+    opacity: 0.25;
+    z-index: 1;
+  }
+
+  .display-3 {
+      font-weight: 500;
+  }
+
+  /* ----------------------------------------------------------------- */
+
+
+  .mb-3 {
+      margin-bottom: 0rem !important;
+  }
